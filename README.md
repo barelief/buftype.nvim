@@ -2,7 +2,9 @@
 
 A Neovim plugin for typing practice that dims buffer text and tracks your WPM and accuracy as you type.
 
-## Features
+<img width="1280" height="720" alt="buftype_720p_stretched" src="https://github.com/user-attachments/assets/e072838e-a3e0-416e-ae94-a8f171afb66c" />
+
+## ✨ Features
 
 - **Typing mode**: Activate to dim all text in the current buffer and type to reveal characters
 - **WPM tracking**: Live WPM calculation with rolling 5-second window
@@ -43,6 +45,8 @@ The plugin provides the `:BufType` command and a default keymap:
 
 - `:BufType` or `<leader>uB` - Activate typing mode
 - `<Esc>` - Exit typing mode and show session summary
+
+<img width="440" height="75" alt="image" src="https://github.com/user-attachments/assets/d1b29af8-c2d4-4aed-87d5-19ab8acafaf4" />
 
 ## Configuration
 
