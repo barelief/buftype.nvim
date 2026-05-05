@@ -16,7 +16,7 @@ A Neovim plugin for typing practice that dims buffer text and tracks your WPM an
 
 ```lua
 {
-  'yourusername/buftype.nvim',
+  'barelief/buftype.nvim',
   config = function()
     require('buftype').setup({
       show_wpm = true,
@@ -30,7 +30,7 @@ A Neovim plugin for typing practice that dims buffer text and tracks your WPM an
 
 ```lua
 use {
-  'yourusername/buftype.nvim',
+  'barelief/buftype.nvim',
   config = function()
     require('buftype').setup()
   end
