@@ -6,7 +6,7 @@ local ns_cursor = vim.api.nvim_create_namespace('buftype_cursor')
 function M.setup_highlights()
   -- Lighter gray than Comment — clearly dimmed but still readable
   vim.cmd([[highlight default BufTypeDim   guifg=#888888 ctermfg=102]])
-  vim.cmd([[highlight default BufTypeError guifg=#ffff00 guibg=#ff0000 gui=bold,undercurl guisp=#ff0000 ctermfg=15 ctermbg=203]])
+  vim.cmd([[highlight default BufTypeError guifg=#ffff00 guibg=#ff0000 gui=bold,undercurl guisp=#ffff00 ctermfg=15 ctermbg=203]])
   vim.cmd([[highlight default link BufTypeDone  NONE]])
   vim.cmd([[highlight default BufTypeCursor guifg=#000000 guibg=#e5c07b ctermfg=0 ctermbg=214]])
 end
